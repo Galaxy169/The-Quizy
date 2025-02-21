@@ -5,6 +5,6 @@
   right: 2%;
 }
 .dark-mode-button img {
-  filter: none !important;
+  filter: brightness(0.9) !important;
   width: 30px;
 }

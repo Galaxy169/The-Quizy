@@ -1,16 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --body-bg-color: #ededed;
-  --color: #1d1d1d;
-  --primary-color: #f5fbef;
-  --btn-bg-color: #588b8b;
-  --btn-bg-hover: #295757;
-  --btn-opt-bg: #c2c8cf;
-  --btn-opt-bg-hover: #93c2c4;
-}
-
-.dark {
   --body-bg-color: #2c2c2c;
   --color: #e8e8e8;
   --primary-color: #1e1e1e;
@@ -18,6 +8,16 @@
   --btn-bg-hover: #295757;
   --btn-opt-bg: #4681f4;
   --btn-opt-bg-hover: #46c0f4;
+}
+
+.dark {
+  --body-bg-color: #ededed;
+  --color: #1d1d1d;
+  --primary-color: #f5fbef;
+  --btn-bg-color: #588b8b;
+  --btn-bg-hover: #295757;
+  --btn-opt-bg: #c2c8cf;
+  --btn-opt-bg-hover: #93c2c4;
 }
 
 * {
