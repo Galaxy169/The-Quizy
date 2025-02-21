@@ -20,8 +20,8 @@ The quizy allows multiple attempts, tracks user progress, and saves the history 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/quiz-app.git
-   cd quiz-app
+   git clone https://github.com/Galaxy169/the-quizy.git
+   cd the-quizy
    ```
 2. Install dependencies:
    ```sh
@@ -36,6 +36,8 @@ The quizy allows multiple attempts, tracks user progress, and saves the history 
    http://localhost:5173
    ```
 
----
 
 ## Preview
+Visit the website for preview: [https://thequizy.netlify.app](https://thequizy.netlify.app/)
+
+---
