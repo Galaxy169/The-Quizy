@@ -7,18 +7,18 @@ function StartScreen() {
   return (
     <div className="start-screen">
       <h2>Welcome to The Quiz!</h2>
-      <h3>{numQuestions} questions to test your Knowledge</h3>
-      <p>Instructions</p>
+      <h3>{numQuestions} questions to test your Knowledge 📝</h3>
+      <p>Instructions👨‍🏫</p>
       <ol>
         <li>
           For multiple-choice questions, select the one best answer (A, B, C, or
-          D)
+          D) 🖊
         </li>
-        <li>For integer-type questions, write your numerical answer clearly</li>
-        <li>No calculators unless specified</li>
+        <li>For integer-type questions, write your numerical answer clearly ✍</li>
+        <li>No calculators unless specified 🧮❌</li>
         <li>
           Total time is calculated based on {SECS_PER_QUESTION} seconds per
-          question
+          question ⌛
         </li>
       </ol>
       <button className="btn" onClick={() => dispatch({ type: "start" })}>

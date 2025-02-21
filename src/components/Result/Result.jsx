@@ -10,9 +10,9 @@ function Result() {
     <>
       <p className="result">
         You scored <strong>{points}</strong> out of {maxPoint} (
-        {Math.ceil(percentage)}%)
+        {Math.ceil(percentage)}%) 🎉
       </p>
-      <p className="highscore">(Highscore: {highscore} point) </p>
+      <p className="highscore">(Highscore: {highscore} point 🥇) </p>
       <button
         className="btn restart"
         onClick={() => dispatch({ type: "restart" })}

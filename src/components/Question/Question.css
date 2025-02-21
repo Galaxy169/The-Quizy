@@ -10,7 +10,8 @@
 }
 
 .question div {
-  max-width: 90%;
+  margin: 10px;
+  max-width: 100%;
 }
 
 .question div h2 {

@@ -19,14 +19,14 @@ function Options() {
   const handleInt = (e) => {
     // Check if input is empty
     if (intAns.trim() === "") {
-      setMessage("Please enter a valid number!");
+      setMessage("Please enter a valid number! 🚫");
       return;
     }
 
     // Check if input is a valid integer
     const validatedAnswer = Number(intAns);
     if (isNaN(validatedAnswer) || !Number.isInteger(validatedAnswer)) {
-      setMessage("Please enter a valid integer!");
+      setMessage("Please enter a valid integer! 🚫");
       return;
     }
 
@@ -60,13 +60,13 @@ function Options() {
       ) : (
         <>
           <div className="int-container">
-            <label>Enter your answer</label>
+            <label>Enter Your Answer ✍</label>
             <p className="error-message">{message}</p>
             {hasAnswered && (
               <p>
                 {answer == question.correctOption
-                  ? `"Your answer ${answer} was correct"`
-                  : `"Your answer ${answer} was wrong"`}
+                  ? `Your answer ${answer} was correct 🎉✅`
+                  : `Your answer ${answer} was wrong 👎❌`}
               </p>
             )}
             <input
