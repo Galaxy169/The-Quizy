@@ -26,7 +26,13 @@ function reducer(state, action) {
         ...state,
         questions: action.payload,
         status: "ready",
-        numQuestions: state.questions.length,
+        /* So, when we are calulating the numQuestions, the state still holds old data.
+        it is working in dev server but breaks in production
+        */
+        // numQuestions: state.questions?.length,
+
+        // Calculating on new data.
+        numQuestions: action.payload.length,
       };
 
     // in case of error in fetching data
