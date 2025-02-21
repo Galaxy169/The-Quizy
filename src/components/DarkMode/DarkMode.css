@@ -1,0 +1,10 @@
+.dark-mode-button {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  right: 2%;
+}
+.dark-mode-button img {
+  filter: none !important;
+  width: 30px;
+}

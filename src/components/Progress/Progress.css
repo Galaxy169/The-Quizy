@@ -1,0 +1,34 @@
+.progress {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  width: 400px;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 16px;
+  grid-column: 1 / -1;
+}
+
+::-webkit-progress-bar {
+  border-radius: 100px;
+}
+::-webkit-progress-value {
+  border-radius: 100px;
+}
+
+/* ---- Media Queries ---- */
+
+@media (max-width: 450px) {
+  .progress {
+    width: 300px;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,6 @@
+.timer {
+  background-color: var(--btn-bg-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: rgb(237, 237, 237);
+}

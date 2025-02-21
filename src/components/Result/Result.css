@@ -1,0 +1,6 @@
+.result {
+  background-color: var(--body-bg-color);
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 20px;
+}

@@ -1,0 +1,65 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.btn.opt {
+  margin: 4px;
+  background-color: var(--btn-opt-bg);
+  color: var(--color);
+  border: 1px solid rgb(62, 26, 78);
+  border-radius: 60px;
+}
+
+.btn.opt:hover {
+  background-color: var(--btn-opt-bg-hover);
+  transform: translateX(0.8rem);
+}
+
+.answer {
+  background-color: #ed0800 !important;
+  transform: translateX(0.8rem);
+}
+
+.opt.correct {
+  background-color: rgb(24, 178, 24) !important;
+}
+.opt.wrong {
+  background-color: rgb(158, 158, 158);
+}
+
+.int-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.int-container label {
+  color: var(--color);
+}
+
+.int-container input {
+  width: 320px;
+  height: 60px;
+  padding: 1em;
+  margin-top: 1rem;
+  border: 2px solid rgb(17, 118, 78);
+  border-radius: 10px;
+  background-color: var(--body-bg-color);
+  color: var(--color);
+}
+
+.int-container input:disabled {
+  cursor: not-allowed;
+}
+
+.int-container .error-message {
+  color: #cc2823;
+}
+
+.int-container .btn.submit {
+  background-color: rgb(53, 108, 5);
+}
